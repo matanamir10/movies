@@ -1,4 +1,5 @@
 import React from 'react';
+import Input from '../../components/UI/Input/Input';
 import './App.css';
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         facilis, natus deserunt. Optio, dignissimos. Hic, deserunt, beatae minima iure laudantium
         libero quasi ab ad incidunt architecto repellendus.
       </p>
+      <Input />
     </div>
   );
 };
