@@ -8,14 +8,14 @@ import Button from '../UI/Button/Button';
 const Login = () => {
   return (
     <Card className={classes.login} cardHeader="Login">
-      <form>
+      <form autoComplete="off">
         <FormItem label="Email">
           <Input type="email" placeholder="Enter email here..." />
         </FormItem>
         <FormItem label="Password">
           <Input type="password" placeholder="Enter password here..." />
         </FormItem>
-        <Button>Login</Button>
+        <Button type="submit">Login</Button>
       </form>
     </Card>
   );
